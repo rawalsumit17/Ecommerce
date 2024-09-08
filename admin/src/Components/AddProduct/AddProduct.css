@@ -1,0 +1,154 @@
+.add-product{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: white;
+}
+.addproduct-title{
+    font-size: 1.5rem;
+}
+.addproduct-itemfield{
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 1rem;
+}
+.addproduct-itemfield input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 50px;
+    border: 1px solid #a8a7a7;
+    outline: none;
+    color: #7b7b7b;
+    font-family: "Poppins";
+    font-size: 0.875rem;
+}
+.addproduct-price{
+    display: flex;
+    gap: 40px;
+}
+.add-product-selector{
+    padding: 0px 10px;
+    width: 200px;
+    height: 35px;
+    font-size: 0.875rem;
+    color: #7b7b7b;
+    border: 1px solid rgb(42, 41, 41);
+    border-radius: 4px;
+}
+.add-product-selector option{
+    width: 100%;
+    
+}
+.addproduct-thumnail-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 10px 0px;
+    margin-top: 20px;
+    border: 1px dashed rgb(142, 140, 140);
+}
+.addproduct-btn{
+    margin-top:10px;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.img-field{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.error-message {
+    color: red;
+}
+.input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+@media(max-width:800px){
+    .add-product{
+        width: auto;
+        padding: 30px;
+        margin: 20px;
+    }
+    .addproduct-title{
+    font-size: 1.2rem;
+}
+.add-product-selector{
+    padding: 0 10px;
+}
+
+
+}
+@media(max-width:500px) {
+    .add-product {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .addproduct-title {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .addproduct-itemfield p{
+        margin-bottom: 5px;
+    }
+    .addproduct-itemfield input{
+        padding-left: 25px;
+        height: 35px;
+    }
+    .add-product-selector{
+        padding: 0px 10px;
+    }
+    .addproduct-thumnail-img{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 0p;
+    }
+    .addproduct-btn{
+        width: 100%;
+    }
+}
+
+@media(max-width:464px){
+    .addproduct-price{
+        gap: 10px;
+    }
+    .addproduct-itemfield {
+       
+        font-size: 0.85rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
